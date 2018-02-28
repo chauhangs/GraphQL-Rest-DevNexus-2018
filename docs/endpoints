@@ -1,0 +1,16 @@
+GET /games
+GET /games/1
+GET /games?name=GameName
+GET /games?homeTeam=ATLH
+POST /games
+PUT /games/1
+
+GET /venues
+GET /venues/1
+POST /venues
+PUT /venues/1
+
+GET /teams
+GET /teams/1
+POST /teams
+PUT /teams/1

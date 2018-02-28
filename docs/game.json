@@ -1,0 +1,25 @@
+{
+  "name": "Hawks vs Away Team Game 1",
+  "awayTeam": "Away Team Game 1",
+  "gameStartTime": "2017-06-21 17:43:18.259",
+  "active": false,
+  "homeTeam": {
+    "href": "http://localhost:8080/teams/1"
+  },
+  "ticketPrograms": [
+    {
+      "href": "http://localhost:8080/games/1/ticket-programs/1"
+    },
+    {
+      "href": "http://localhost:8080/games/1/ticket-programs/2"
+    }
+  ],
+  "venue": {
+    "href": "http://localhost:8080/venues/1"
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/games/1"
+    }
+  }
+}

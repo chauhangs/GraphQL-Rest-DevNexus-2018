@@ -1,0 +1,53 @@
+{
+  "_links": {
+    "games": [
+      {
+        "href": "http://localhost:8080/games/1",
+        "title": "Hawks vs Away Team Game 1"
+      },
+      {
+        "href": "http://localhost:8080/games/2",
+        "title": "Hawks vs Away Team Game 2"
+      },
+      {
+        "href": "http://localhost:8080/games/3",
+        "title": "Hawks vs Away Team Game 3"
+      },
+      {
+        "href": "http://localhost:8080/games/4",
+        "title": "Hawks vs Away Team Game 4"
+      },
+      {
+        "href": "http://localhost:8080/games/5",
+        "title": "Hawks vs Away Team Game 5"
+      },
+      {
+        "href": "http://localhost:8080/games/6",
+        "title": "Hawks vs Away Team Game 6"
+      },
+      {
+        "href": "http://localhost:8080/games/7",
+        "title": "Hawks vs Away Team Game 7"
+      },
+      {
+        "href": "http://localhost:8080/games/8",
+        "title": "Hawks vs Away Team Game 8"
+      },
+      {
+        "href": "http://localhost:8080/games/9",
+        "title": "Hawks vs Away Team Game 9"
+      },
+      {
+        "href": "http://localhost:8080/games/10",
+        "title": "Hawks vs Away Team Game 10"
+      }
+    ],
+    "next": {
+      "href": "http://localhost:8080/games?limit=10&offset=11"
+    }
+  },
+  "meta": {
+    "total_count": 174,
+    "count": 10
+  }
+}

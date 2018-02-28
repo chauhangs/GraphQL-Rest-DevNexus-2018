@@ -1,0 +1,43 @@
+#
+# Schemas must have at least a query root type
+#
+schema {
+    query: Query
+}
+
+type Query {
+    games (name: String homeTeam: String) : [Game]
+}
+
+type Game {
+    name: String!
+    homeTeam: Team
+    awayTeam: String
+    venue: Venue
+    ticketPrograms: [TicketProgram]
+    gameStartTime: String
+    active: Boolean
+}
+
+type Team {
+    name: String!
+    shortName: String
+    city: String
+}
+
+type TicketProgram {
+    name: String!
+    ticketsAvailable: Int
+    ticketsSold: Int
+}
+
+type Venue {
+    name: String!
+    team: Team
+    latitude: Float
+    longitude: Float
+    avgAttendance: Int
+    maxAttendance: Int
+}
+
+

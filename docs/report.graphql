@@ -1,0 +1,143 @@
+"query" : "{
+    summary {
+        transactions
+        fans_impacted
+        gross_sales
+        credit_given
+        credit_used
+    }
+    tickets {
+        summary {
+            transactions
+            fans_impacted
+            gross_sales
+        }
+        pass_types_summary {
+            pass {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+            pass_one {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+            pass_select {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+        }
+    }
+    upgrades {
+        summary {
+            transactions
+            fans_impacted
+            gross_sales
+        }
+        categories_summary {
+            seat_upgrade {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+            merchandise {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+            experience {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+            add_tickets {
+                transactions
+                fans_impacted
+                gross_sales
+            }
+        }
+    }
+    unpaid {
+        summary {
+            transactions
+            fans_impacted
+        }
+        unpaid_types_summary {
+            return_tickets {
+                transactions
+                fans_impacted
+                credit_given
+            }
+            memories {
+                transactions
+                fans_impacted
+                loyalty_used
+                loyalty_currency_name
+            }
+            genie {
+                transactions
+                fans_impacted
+            }
+            comps {
+                transactions
+                fans_impacted
+            }
+        }
+        unpaid_types_by_product_summary {
+            memories {
+                seat_upgrade {
+                    transactions
+                    fans_impacted
+                    loyalty_used
+                    loyalty_currency_name
+                }
+                merchandise {
+                    transactions
+                    fans_impacted
+                    loyalty_used
+                    loyalty_currency_name
+                }
+                experience {
+                    transactions
+                    fans_impacted
+                    loyalty_used
+                    loyalty_currency_name
+                }
+                add_tickets {
+                    transactions
+                    fans_impacted
+                    loyalty_used
+                    loyalty_currency_name
+                }
+            }
+        }
+    }
+    perks {
+        summary {
+            awarded
+            redeemed
+        }
+        perks_types_summary {
+            coupons {
+                awarded
+                redeemed
+            }
+            access_codes {
+                awarded
+                redeemed
+            }
+        }
+    }
+    registrations {
+        summary {
+            fans_active
+            fans_active_with_memories
+            upgrade_registrations
+            total_notifications
+            pass_one_subscriptions
+            pass_one_allow_notifications
+        }
+    }
+}"
